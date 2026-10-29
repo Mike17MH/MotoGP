@@ -11,7 +11,8 @@ we can create the Bump Chart Excel using all the JSON generated for each race in
 So, please all the JSON in one single folder for a faster and easy handling and execute
 the next commands.
 
-1. python motogp_season_bump_chart.py "C:\Users\1021446\Documents\MotoGP\Season_JSON" -o "C:\Users\1021446\Documents\MotoGP\Season_JSON\motogp_season_analysis.xlsx"
+1. python motogp_season_bump_chart.py "C:\Users\1021446\Documents\MotoGP\Season_JSON" 
+-o "C:\Users\1021446\Documents\MotoGP\Season_JSON\motogp_season_analysis.xlsx"
 
 Success result message:
 
@@ -20,7 +21,8 @@ Wrote C:\Users\1021446\Documents\MotoGP\Season_JSON\motogp_season_analysis.xlsx:
 Then now we can create the Probability and Possible Scenarios excel with the next
 command:
 
-2. python motogp_probability_and_scenarios.py "C:\Users\1021446\Documents\MotoGP\Season_JSON" -o "C:\Users\1021446\Documents\MotoGP\Season_JSON\motogp_probability_scenario.xlsx" --recent-window 3
+2. python motogp_probability_and_scenarios.py "C:\Users\1021446\Documents\MotoGP\Season_JSON" 
+-o "C:\Users\1021446\Documents\MotoGP\Season_JSON\motogp_probability_scenario.xlsx" --recent-window 3
 
 Success result message:
 
